@@ -2,7 +2,7 @@
 const { expect } = require("chai");
 const { substitution } = require("../src/substitution");
 
-describe("Substitution Square", () => {
+describe("Substitution Cipher", () => {
   it("should return a encoded message", () => {
     const expected = "jrufscpw";
     const actual = substitution("thinkful", "xoyqmcgrukswaflnthdjpzibev");
